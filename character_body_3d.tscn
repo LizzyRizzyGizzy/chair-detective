@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bitwaqtm82bx4"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_bu0v1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_iwpo4"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1468291638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5283643, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=304214136]
+mesh = SubResource("BoxMesh_bu0v1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1952438172]
+shape = SubResource("BoxShape3D_iwpo4")
