@@ -1,0 +1,81 @@
+{
+	"categories": [
+		{
+			"uuid": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"title": "Task",
+			"color": "569eff"
+		},
+		{
+			"uuid": "55c6edc4-b6ff-4f51-b0f0-9e7f30bc6a33",
+			"title": "BUG",
+			"color": "f63f11"
+		},
+		{
+			"uuid": "f64e296e-d318-4c7b-82c3-9f95b8f1fb36",
+			"title": "Lizzie",
+			"color": "cee318"
+		},
+		{
+			"uuid": "88909582-9385-4da3-a27b-f69e55ed9ff3",
+			"title": "Jacke",
+			"color": "7a15c6"
+		}
+	],
+	"stages": [
+		{
+			"uuid": "a036dfbe-8645-4914-9258-6c141293d371",
+			"title": "Todo",
+			"tasks": [
+				"b3d64eb8-95b0-4584-9367-d5c1c32bfbbe",
+				"d85a940c-da04-42d2-ac35-c0e4cb4337b4"
+			]
+		},
+		{
+			"uuid": "707d8316-8441-48d4-b791-8d99938be8c3",
+			"title": "Lizzie",
+			"tasks": []
+		},
+		{
+			"uuid": "b7187443-f247-4664-b4fa-27b35070c87b",
+			"title": "Jacke",
+			"tasks": []
+		},
+		{
+			"uuid": "b957a0de-a1d8-4acf-b312-5a2da97a31e0",
+			"title": "Done",
+			"tasks": []
+		}
+	],
+	"tasks": [
+		{
+			"uuid": "b3d64eb8-95b0-4584-9367-d5c1c32bfbbe",
+			"title": "3RD Person Controller",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		},
+		{
+			"uuid": "d85a940c-da04-42d2-ac35-c0e4cb4337b4",
+			"title": "Dialouge System",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		}
+	],
+	"layout": {
+		"columns": [
+			[
+				"a036dfbe-8645-4914-9258-6c141293d371"
+			],
+			[
+				"707d8316-8441-48d4-b791-8d99938be8c3"
+			],
+			[
+				"b7187443-f247-4664-b4fa-27b35070c87b"
+			],
+			[
+				"b957a0de-a1d8-4acf-b312-5a2da97a31e0"
+			]
+		]
+	}
+}
