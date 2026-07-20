@@ -4,26 +4,26 @@
 
 [node name="Sketchfab_Scene" unique_id=959493535 instance=ExtResource("1_q1lkx")]
 
-[node name="Poster_01_001_Posters_0" parent="Sketchfab_model/Metro_Esc_fbx/RootNode/Poster_01_001" parent_id_path=PackedInt32Array(68154059) index="0" unique_id=735832375]
+[node name="Poster_01_001_Posters_0" parent="Sketchfab_model/Metro_Esc_fbx/RootNode/Poster_01_001" parent_id_path=PackedInt32Array(213905044) index="0" unique_id=492022079]
 visible = false
 
-[node name="Poster_02_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(413970030) index="38" unique_id=1534904064]
+[node name="Poster_02_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="38" unique_id=1559634509]
 visible = false
 
-[node name="Poster_03_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(413970030) index="39" unique_id=238894732]
+[node name="Poster_03_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="39" unique_id=1720256522]
 visible = false
 
-[node name="Poster_04_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(413970030) index="40" unique_id=1386419360]
+[node name="Poster_04_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="40" unique_id=909271594]
 visible = false
 
-[node name="Poster_05_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(413970030) index="41" unique_id=639479841]
+[node name="Poster_05_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="41" unique_id=1630935895]
 visible = false
 
-[node name="Poster_06_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(413970030) index="42" unique_id=1935494998]
+[node name="Poster_06_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="42" unique_id=145197914]
 visible = false
 
-[node name="Poster_07_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(413970030) index="43" unique_id=1099492589]
+[node name="Poster_07_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="43" unique_id=1775406293]
 visible = false
 
-[node name="Poster_08_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(413970030) index="44" unique_id=1934259188]
+[node name="Poster_08_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="44" unique_id=1082994779]
 visible = false
