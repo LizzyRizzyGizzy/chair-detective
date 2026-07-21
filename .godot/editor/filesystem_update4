@@ -1,2 +1,7 @@
-res://character_body_3d.tscn
+res://chairs/detective_chair_phelps_characterbody.tscn
 res://scenes/game.tscn
+res://scenes/subway.tscn
+res://chairs/detective_chair_phelps_model.tscn
+res://scenes/DialougeSystem.tscn
+res://scripts/spawn_manager.gd
+res://assets/chairs/character_movement.gd

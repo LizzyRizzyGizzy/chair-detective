@@ -28,12 +28,12 @@ enabled=PackedStringArray("res://addons/kanban_tasks/plugin.cfg")
 
 folder_colors={
 "res://addons/": "red",
-"res://chairs/": "orange",
+"res://assets/chairs/": "orange",
+"res://assets/metro/": "green",
 "res://dialouges/": "yellow",
-"res://metro/": "green",
 "res://scenes/": "teal",
 "res://scripts/": "blue",
-"res://singletons/": "purple"
+"res://scripts/singletons/": "purple"
 }
 
 [input]

@@ -1,6 +1,6 @@
 extends Node3D
 
-var detective_chair_phelps = preload("res://chairs/detective_chair_phelps_characterbody.tscn")
+var detective_chair_phelps = preload("uid://cdywdamw1hsxa") #"res://assets/chairs/detective_chair_phelps_characterbody.tscn"
 var node_to_load
 
 func _ready() -> void:
