@@ -26,8 +26,7 @@
 			"uuid": "a036dfbe-8645-4914-9258-6c141293d371",
 			"title": "Todo",
 			"tasks": [
-				"b3d64eb8-95b0-4584-9367-d5c1c32bfbbe",
-				"d85a940c-da04-42d2-ac35-c0e4cb4337b4"
+				"b3d64eb8-95b0-4584-9367-d5c1c32bfbbe"
 			]
 		},
 		{
@@ -38,7 +37,9 @@
 		{
 			"uuid": "b7187443-f247-4664-b4fa-27b35070c87b",
 			"title": "Jacke",
-			"tasks": []
+			"tasks": [
+				"d85a940c-da04-42d2-ac35-c0e4cb4337b4"
+			]
 		},
 		{
 			"uuid": "b957a0de-a1d8-4acf-b312-5a2da97a31e0",
