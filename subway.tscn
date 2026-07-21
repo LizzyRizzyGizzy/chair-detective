@@ -1,29 +1,33 @@
 [gd_scene format=3 uid="uid://dg02qyfpp1tvh"]
 
 [ext_resource type="PackedScene" uid="uid://cpvbyh3lvw8p6" path="res://metro/scene.gltf" id="1_q1lkx"]
+[ext_resource type="Script" uid="uid://cmmcgl0pgod6s" path="res://spawn_manager.gd" id="2_n561w"]
 
 [node name="Sketchfab_Scene" unique_id=959493535 instance=ExtResource("1_q1lkx")]
 
-[node name="Poster_01_001_Posters_0" parent="Sketchfab_model/Metro_Esc_fbx/RootNode/Poster_01_001" parent_id_path=PackedInt32Array(213905044) index="0" unique_id=492022079]
+[node name="Poster_01_001_Posters_0" parent="Sketchfab_model/Metro_Esc_fbx/RootNode/Poster_01_001" parent_id_path=PackedInt32Array(2027131850) index="0" unique_id=860416844]
 visible = false
 
-[node name="Poster_02_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="38" unique_id=1559634509]
+[node name="Poster_02_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(353798732) index="38" unique_id=2082735401]
 visible = false
 
-[node name="Poster_03_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="39" unique_id=1720256522]
+[node name="Poster_03_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(353798732) index="39" unique_id=835157931]
 visible = false
 
-[node name="Poster_04_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="40" unique_id=909271594]
+[node name="Poster_04_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(353798732) index="40" unique_id=635954023]
 visible = false
 
-[node name="Poster_05_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="41" unique_id=1630935895]
+[node name="Poster_05_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(353798732) index="41" unique_id=2021295382]
 visible = false
 
-[node name="Poster_06_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="42" unique_id=145197914]
+[node name="Poster_06_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(353798732) index="42" unique_id=1522808842]
 visible = false
 
-[node name="Poster_07_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="43" unique_id=1775406293]
+[node name="Poster_07_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(353798732) index="43" unique_id=1027619567]
 visible = false
 
-[node name="Poster_08_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(288056021) index="44" unique_id=1082994779]
+[node name="Poster_08_001" parent="Sketchfab_model/Metro_Esc_fbx/RootNode" parent_id_path=PackedInt32Array(353798732) index="44" unique_id=424974809]
 visible = false
+
+[node name="SpawnManager" type="Node3D" parent="." index="1" unique_id=1080392205]
+script = ExtResource("2_n561w")
