@@ -1,0 +1,27 @@
+{
+  "start": {
+	"text": "Hello World!",
+	"name": "Narrator",
+	"mood": "neutrual",
+	"next": "Q1"
+  },
+  "Q1": {
+	"text": "What do you want?",
+	"name": "NPC",
+	"mood": "neutrual",
+	"choices": {
+	  "Nothing": "A1",
+	  "Help": "A2"
+	}
+  },
+  "A1": {
+	"text": "Well okay then",
+	"name": "Narrator",
+	"mood": "neutrual"
+  },
+  "A2": {
+	"text": "With what exactly?",
+	"name": "Narrator",
+	"mood": "neutrual"
+  }
+}

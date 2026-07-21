@@ -1,1 +1,4 @@
-res://scenes/game.tscn
+res://dialouges/DialougeSystem.tscn
+res://dialouges/scripts/DialougeChoices.gd
+res://dialouges/scripts/DialougeSystem.gd
+res://dialouges/data/sample.json
