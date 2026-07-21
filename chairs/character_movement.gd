@@ -3,7 +3,7 @@ extends CharacterBody3D
 
 const SPEED = 5.0
 const ROTATION_SPEED = 1.5
-const JUMP_VELOCITY = 4.5
+const JUMP_VELOCITY = 8
 
 @onready var player_camera = $camera_origin/Camera3D
 @onready var pivot = $camera_origin
@@ -12,6 +12,7 @@ var rotation_direction = 0
 
 func _ready() -> void:
 	player_camera.make_current()
+	CameraManager.PlayerCamera = player_camera
 #	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 #func _input(event):

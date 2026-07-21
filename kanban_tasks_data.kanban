@@ -26,13 +26,18 @@
 			"uuid": "a036dfbe-8645-4914-9258-6c141293d371",
 			"title": "Todo",
 			"tasks": [
-				"b3d64eb8-95b0-4584-9367-d5c1c32bfbbe"
+				"30187d0e-e531-48d0-a2d8-96011c1914e3"
 			]
 		},
 		{
 			"uuid": "707d8316-8441-48d4-b791-8d99938be8c3",
 			"title": "Lizzie",
-			"tasks": []
+			"tasks": [
+				"74d6eb97-73e0-43d3-8c24-7a56caa71b1d",
+				"daa15e7a-a275-480a-aaf1-6cae6c6f96eb",
+				"e6dbd137-67e6-48eb-b04e-aae287e11cfc",
+				"9fab7ad4-69f2-4504-a79b-d1bedb431a55"
+			]
 		},
 		{
 			"uuid": "b7187443-f247-4664-b4fa-27b35070c87b",
@@ -44,7 +49,9 @@
 		{
 			"uuid": "b957a0de-a1d8-4acf-b312-5a2da97a31e0",
 			"title": "Done",
-			"tasks": []
+			"tasks": [
+				"b3d64eb8-95b0-4584-9367-d5c1c32bfbbe"
+			]
 		}
 	],
 	"tasks": [
@@ -58,6 +65,41 @@
 		{
 			"uuid": "d85a940c-da04-42d2-ac35-c0e4cb4337b4",
 			"title": "Dialouge System",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		},
+		{
+			"uuid": "74d6eb97-73e0-43d3-8c24-7a56caa71b1d",
+			"title": "Clue System",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		},
+		{
+			"uuid": "daa15e7a-a275-480a-aaf1-6cae6c6f96eb",
+			"title": "Implement The Tunnel Stools",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		},
+		{
+			"uuid": "e6dbd137-67e6-48eb-b04e-aae287e11cfc",
+			"title": "Implement Madam Chairchez",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		},
+		{
+			"uuid": "9fab7ad4-69f2-4504-a79b-d1bedb431a55",
+			"title": "Implement The Subway Chair",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		},
+		{
+			"uuid": "30187d0e-e531-48d0-a2d8-96011c1914e3",
+			"title": "Subtitles",
 			"description": "",
 			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
 			"steps": []
