@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://r2atwnq0fufg"]
 
-[ext_resource type="Script" uid="uid://d04emfmgbls4n" path="res://cluemenu.gd" id="1_835k6"]
+[ext_resource type="Script" uid="uid://d04emfmgbls4n" path="res://scripts/cluemenu.gd" id="1_835k6"]
+
 
 [node name="ClueMenu" type="Control" unique_id=1560064770]
 layout_mode = 3

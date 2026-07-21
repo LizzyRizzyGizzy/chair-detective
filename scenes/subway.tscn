@@ -1,8 +1,9 @@
 [gd_scene format=3 uid="uid://dg02qyfpp1tvh"]
 
 [ext_resource type="PackedScene" uid="uid://cpvbyh3lvw8p6" path="res://metro/scene.gltf" id="1_q1lkx"]
-[ext_resource type="Script" uid="uid://cmmcgl0pgod6s" path="res://spawn_manager.gd" id="2_n561w"]
-[ext_resource type="Script" uid="uid://chi2fn073j57y" path="res://clue_manager.gd" id="3_ceue4"]
+[ext_resource type="Script" uid="uid://cmmcgl0pgod6s" path="res://scripts/spawn_manager.gd" id="2_n561w"]
+[ext_resource type="Script" uid="uid://chi2fn073j57y" path="res://scripts/clue_manager.gd" id="3_ceue4"]
+
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_a45ru"]
 size = Vector3(1.263794, 3.0190735, 7.423401)
