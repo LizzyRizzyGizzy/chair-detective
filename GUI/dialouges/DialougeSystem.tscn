@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://dbrvydwygafst"]
+[gd_scene format=3 uid="uid://cj1eqljh4gkn0"]
 
-[ext_resource type="Script" uid="uid://cyedtgyhncaqt" path="res://dialouges/scripts/DialougeSystem.gd" id="1_wqm65"]
-[ext_resource type="Script" uid="uid://bsybu52428fuf" path="res://dialouges/scripts/DialougeChoices.gd" id="2_sfjo1"]
+[ext_resource type="Script" uid="uid://cyedtgyhncaqt" path="res://GUI/dialouges/scripts/DialougeSystem.gd" id="1_wqm65"]
+[ext_resource type="Script" uid="uid://bsybu52428fuf" path="res://GUI/dialouges/scripts/DialougeChoices.gd" id="2_sfjo1"]
 
 [sub_resource type="ButtonGroup" id="ButtonGroup_sfjo1"]
 
@@ -13,13 +13,14 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_wqm65")
-json_file = "res://dialouges/data/sample.json"
+json_file = "res://GUI/dialouges/data/sample.json"
 npc_text = NodePath("MainBox/MarginContainer/VBoxContainer/TextBG/MarginContainer/VBoxContainer/TextLabel")
 npc_name = NodePath("MainBox/MarginContainer/VBoxContainer/NameBG/MarginContainer/NameLabel")
 main_layer = NodePath("MainBox")
 choices_layer = NodePath("Choices")
 
 [node name="MainBox" type="CanvasLayer" parent="." unique_id=495947058]
+visible = false
 
 [node name="MarginContainer" type="MarginContainer" parent="MainBox" unique_id=1683412082]
 anchors_preset = 12
@@ -90,6 +91,7 @@ text = "TEXT HERE!"
 fit_content = true
 
 [node name="Choices" type="CanvasLayer" parent="." unique_id=1278672078]
+visible = false
 script = ExtResource("2_sfjo1")
 btn_group = SubResource("ButtonGroup_sfjo1")
 

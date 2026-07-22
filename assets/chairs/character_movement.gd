@@ -1,19 +1,20 @@
 extends CharacterBody3D
 
 
-@export var SPEED : float = 5.0
-@export var ROTATION_SPEED : float = 1.5
-@export var JUMP_VELOCITY : float = 8
+const SPEED = 5.0
+const ROTATION_SPEED = 1.5
+const JUMP_VELOCITY = 8
 
-@onready var player_camera = $camera_origin/Camera3D
+@onready var player_camera = $camera_origin/SpringArm3D/Camera3D
 @onready var pivot = $camera_origin
 @export var sens = 0.5
 var rotation_direction = 0
+var is_jumping_allowed: bool = true
 
 func _ready() -> void:
 	player_camera.make_current()
 	CameraManager.PlayerCamera = player_camera
-	#Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+#	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 #func _input(event):
 	#if event is InputEventMouseMotion:
@@ -27,7 +28,7 @@ func _physics_process(delta: float) -> void:
 		velocity += get_gravity() * delta
 
 	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+	if Input.is_action_just_pressed("ui_accept") and is_on_floor() and is_jumping_allowed == true:
 		velocity.y = JUMP_VELOCITY
 
 	# Get the input direction and handle the movement/deceleration.
@@ -44,3 +45,7 @@ func _physics_process(delta: float) -> void:
 	rotation_direction = Input.get_axis("right", "left")
 	rotation.y += rotation_direction * ROTATION_SPEED * delta
 	move_and_slide()
+
+
+func _on_dialouge_manager_change_jumping() -> void:
+	is_jumping_allowed = !is_jumping_allowed

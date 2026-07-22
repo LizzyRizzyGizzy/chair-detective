@@ -1,0 +1,27 @@
+{
+  "start": {
+	"text": "Hey it's Detctive Phelps come to talk with the lowly grunts.",
+	"name": "Officer Otto",
+	"mood": "neutrual",
+	"next": "Q1"
+  },
+  "Q1": {
+	"text": "What do you need, Detective?",
+	"name": "Officer Otto",
+	"mood": "neutrual",
+	"choices": {
+	  "What did you find when you got here?": "A1",
+	  "Know any good jokes?": "A2"
+	}
+  },
+  "A1": {
+	"text": "Ehhhh just a crying woman of the night, some snot wooded thugs, and that startled stool driver. Probably a bad bar joke in there.",
+	"name": "Officer Otto",
+	"mood": "neutrual"
+  },
+  "A2": {
+	"text": "What do I look like; a comedian?",
+	"name": "Officer Otto",
+	"mood": "neutrual"
+  }
+}

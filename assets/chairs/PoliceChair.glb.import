@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://8prndopjifbx"
-path="res://.godot/imported/DetectiveChairPhelps2.glb-d1000006d2f8b3e8af4eb38c09e895ed.scn"
+uid="uid://bthnv55lcdsyf"
+path="res://.godot/imported/PoliceChair.glb-71e1144a3cfcf60bda804b9ff4e911fa.scn"
 
 [deps]
 
-source_file="res://chairs/DetectiveChairPhelps2.glb"
-dest_files=["res://.godot/imported/DetectiveChairPhelps2.glb-d1000006d2f8b3e8af4eb38c09e895ed.scn"]
+source_file="res://chairs/PoliceChair.glb"
+dest_files=["res://.godot/imported/PoliceChair.glb-71e1144a3cfcf60bda804b9ff4e911fa.scn"]
 
 [params]
 
@@ -44,8 +44,8 @@ _subresources={
 "PATH:Cube": {
 "generate/physics": true,
 "physics/shape_type": 3,
-"primitive/position": Vector3(7, 2, 1),
-"primitive/size": Vector3(16, 31, 17)
+"primitive/position": Vector3(6, 2, 1),
+"primitive/size": Vector3(18, 30, 16)
 }
 }
 }

@@ -2,10 +2,12 @@ extends Control
 
 @export_file("*.json") var json_file
 
-#var samplefile = "res://dialouges/data/sample.json"
+#var samplefile = "res://GUI/dialouges/data/sample.json"
 var current_block : Dictionary
 var scene_script : Dictionary
 var next_block : Dictionary
+
+@onready var main_box: CanvasLayer = $MainBox
 
 @export_category("UI References")
 @export var npc_text : RichTextLabel
@@ -23,7 +25,7 @@ func _ready() -> void:
 
 # User Input handling
 func _input(_event: InputEvent) -> void:
-	if Input.is_action_just_pressed("ui_accept"):
+	if Input.is_action_just_pressed("ui_accept") and main_box.visible == true:
 		next()
 
 # Reads the assigned JSON File to a Dictionary
@@ -54,3 +56,6 @@ func _on_choices_next_id(id: String) -> void:
 	next_block = scene_script[id]
 	next()
 	choices_layer.hide()
+
+func _on_dialouge_manager_change_visibility() -> void:
+	main_box.visible = !main_box.visible

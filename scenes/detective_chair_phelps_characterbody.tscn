@@ -1,4 +1,6 @@
-[gd_scene format=4 uid="uid://bitwaqtm82bx4"]
+[gd_scene format=4 uid="uid://cdywdamw1hsxa"]
+
+[ext_resource type="Script" uid="uid://ry20l5sjanru" path="res://chairs/character_movement.gd" id="1_ru6jx"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_bu0v1"]
 size = Vector3(16, 31, 17)
@@ -161,21 +163,24 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_ixnqq")
 
-[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1468291638]
+[node name="DetectiveChairPhelps" type="CharacterBody3D" unique_id=1468291638]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+script = ExtResource("1_ru6jx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1754427976]
 transform = Transform3D(0.10552934, 0, 0, 0, 0.10552934, 0, 0, 0, 0.10552934, -0.26418233, 1.6195987, 0.10552934)
 shape = SubResource("BoxShape3D_bu0v1")
 
 [node name="camera_origin" type="Node3D" parent="." unique_id=88198991]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7057974, 0.12721199)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.6707351, 0.12721199)
 
 [node name="SpringArm3D" type="SpringArm3D" parent="camera_origin" unique_id=76775331]
-spring_length = 2.0
+transform = Transform3D(-0.011568809, 0, 0.99993306, 0, 1, 0, -0.99993306, 0, -0.011568809, 0, 0, 0)
+spring_length = 3.0
 margin = 0.5
 
 [node name="Camera3D" type="Camera3D" parent="camera_origin/SpringArm3D" unique_id=1139419469]
-transform = Transform3D(-0.0005337141, -0.49814647, 0.8670927, -0.00030661974, 0.8670929, 0.49814638, -0.9999998, 0, -0.0006155212, 2.738047, 1.3381059, 0)
+transform = Transform3D(1.9999142, 0.009773203, -0.015780747, -0.00061323954, 1.734186, 0.9962929, 0.01855186, -0.99624515, 1.7341146, 2.738047, 1.3381059, -5.122274e-09)
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=2062564078]
 transform = Transform3D(0.10552934, 0, 0, 0, 0.10552934, 0, 0, 0, 0.10552934, -1.0028877, 1.40854, 0)

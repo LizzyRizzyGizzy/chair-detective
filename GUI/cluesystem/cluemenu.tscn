@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://r2atwnq0fufg"]
+
+[ext_resource type="Script" uid="uid://d04emfmgbls4n" path="res://GUI/cluesystem/cluemenu.gd" id="1_835k6"]
+
+[node name="ClueMenu" type="Control" unique_id=1560064770]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_835k6")
+
+[node name="ClueMenuLayer" type="CanvasLayer" parent="." unique_id=394188472]
+
+[node name="MarginContainer" type="MarginContainer" parent="ClueMenuLayer" unique_id=1715492665]
+custom_minimum_size = Vector2(400, 400)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ClueMenuLayer/MarginContainer" unique_id=1143109905]
+layout_mode = 2
+
+[node name="ItemList" type="ItemList" parent="ClueMenuLayer/MarginContainer/HBoxContainer" unique_id=1735410292]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+item_count = 2
+item_0/text = "Clue 1"
+item_1/text = "Clue 2"
+
+[node name="TextEdit" type="TextEdit" parent="ClueMenuLayer/MarginContainer/HBoxContainer" unique_id=2132767032]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+size_flags_horizontal = 8
+
+[connection signal="item_selected" from="ClueMenuLayer/MarginContainer/HBoxContainer/ItemList" to="." method="_on_item_list_item_selected"]

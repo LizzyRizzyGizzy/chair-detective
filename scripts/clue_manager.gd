@@ -10,7 +10,7 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("interact") and Clue1Entered == true:
 		Clue1Camera.make_current()
 		Clue1CameraTimer.start(3)
@@ -19,8 +19,8 @@ func _on_clue_1_camera_timer_timeout() -> void:
 	Clue1Camera.clear_current()
 	CameraManager.PlayerCamera.make_current()
 
-func _on_clue_1_body_entered(body: Node3D) -> void:
+func _on_clue_1_body_entered(_body: Node3D) -> void:
 	Clue1Entered = true
 
-func _on_clue_1_body_exited(body: Node3D) -> void:
+func _on_clue_1_body_exited(_body: Node3D) -> void:
 	Clue1Entered = false
