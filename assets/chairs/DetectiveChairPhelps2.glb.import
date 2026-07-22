@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://8prndopjifbx"
-path="res://.godot/imported/DetectiveChairPhelps2.glb-d1000006d2f8b3e8af4eb38c09e895ed.scn"
+path="res://.godot/imported/DetectiveChairPhelps2.glb-9c8e2538f1da136444fbc949ce29805d.scn"
 
 [deps]
 
-source_file="res://chairs/DetectiveChairPhelps2.glb"
-dest_files=["res://.godot/imported/DetectiveChairPhelps2.glb-d1000006d2f8b3e8af4eb38c09e895ed.scn"]
+source_file="res://assets/chairs/DetectiveChairPhelps2.glb"
+dest_files=["res://.godot/imported/DetectiveChairPhelps2.glb-9c8e2538f1da136444fbc949ce29805d.scn"]
 
 [params]
 

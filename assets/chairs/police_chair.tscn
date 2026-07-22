@@ -1,9 +1,9 @@
 [gd_scene format=4 uid="uid://mg2tai7ejnsh"]
 
-[ext_resource type="PackedScene" uid="uid://bthnv55lcdsyf" path="res://chairs/PoliceChair.glb" id="1_t6m3h"]
-[ext_resource type="Texture2D" uid="uid://osnyi30sje2t" path="res://chairs/misc assets/police_hat_1.png" id="2_q3cuj"]
-[ext_resource type="Texture2D" uid="uid://duistpjik884p" path="res://chairs/misc assets/police_hat_2.jpg" id="3_lfv7u"]
-[ext_resource type="Texture2D" uid="uid://87mwcxbq4x2y" path="res://chairs/misc assets/police_hat_0.png" id="4_826es"]
+[ext_resource type="PackedScene" uid="uid://bthnv55lcdsyf" path="res://assets/chairs/PoliceChair.glb" id="1_nw3hq"]
+[ext_resource type="Texture2D" uid="uid://osnyi30sje2t" path="res://assets/chairs/misc assets/police_hat_1.png" id="2_ypysu"]
+[ext_resource type="Texture2D" uid="uid://duistpjik884p" path="res://assets/chairs/misc assets/police_hat_2.jpg" id="3_4tagy"]
+[ext_resource type="Texture2D" uid="uid://87mwcxbq4x2y" path="res://assets/chairs/misc assets/police_hat_0.png" id="4_1wijd"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hneyo"]
 resource_name = "lambert3SG"
@@ -12,7 +12,7 @@ albedo_color = Color(0, 0, 0, 1)
 metallic = 0.5401025
 roughness = 0.4184428
 normal_enabled = true
-normal_texture = ExtResource("2_q3cuj")
+normal_texture = ExtResource("2_ypysu")
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_md8ok"]
 _surfaces = [{
@@ -51,7 +51,7 @@ shadow_mesh = SubResource("ArrayMesh_md8ok")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gbqmp"]
 resource_name = "lambert4SG"
 cull_mode = 2
-albedo_texture = ExtResource("3_lfv7u")
+albedo_texture = ExtResource("3_4tagy")
 metallic = 0.9712271
 roughness = 0.035214774
 metadata/_gltf_primary_texture_coord = 0
@@ -178,7 +178,7 @@ albedo_color = Color(0.13800803, 0.13800803, 0.13800803, 1)
 metallic = 0.72867495
 roughness = 0.2907001
 normal_enabled = true
-normal_texture = ExtResource("2_q3cuj")
+normal_texture = ExtResource("2_ypysu")
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_g1wef"]
 _surfaces = [{
@@ -217,7 +217,7 @@ shadow_mesh = SubResource("ArrayMesh_g1wef")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5r5lo"]
 resource_name = "lambert8SG"
 cull_mode = 2
-albedo_texture = ExtResource("4_826es")
+albedo_texture = ExtResource("4_1wijd")
 metallic = 1.0
 roughness = 0.6
 metadata/_gltf_primary_texture_coord = 0
@@ -259,7 +259,7 @@ shadow_mesh = SubResource("ArrayMesh_74bha")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l8l1l"]
 resource_name = "lambert2SG"
 cull_mode = 2
-albedo_texture = ExtResource("4_826es")
+albedo_texture = ExtResource("4_1wijd")
 metallic = 0.7273247
 roughness = 0.46710664
 metadata/_gltf_primary_texture_coord = 0
@@ -298,7 +298,7 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_vd3kj")
 
-[node name="PoliceChair" unique_id=1500542361 instance=ExtResource("1_t6m3h")]
+[node name="PoliceChair" unique_id=1500542361 instance=ExtResource("1_nw3hq")]
 
 [node name="Sketchfab_Scene" type="Node3D" parent="." index="3" unique_id=874274978]
 transform = Transform3D(-0.99988914, -4.2458714e-10, 0.014892831, 0.0087575335, 0.80883414, 0.5879717, -0.0120458305, 0.5880369, -0.8087445, 0.5095074, 1.9361999, 0.505865)

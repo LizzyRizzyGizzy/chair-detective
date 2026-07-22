@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8dhiq8vn64ds"
-path.s3tc="res://.godot/imported/low_poly_cigarette_0.png-bdb423ad731878c13ce670ab2831ea0d.s3tc.ctex"
+path.s3tc="res://.godot/imported/low_poly_cigarette_0.png-945711ce54501398e98d0d933352d6f5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://chairs/misc assets/low_poly_cigarette_0.png"
-dest_files=["res://.godot/imported/low_poly_cigarette_0.png-bdb423ad731878c13ce670ab2831ea0d.s3tc.ctex"]
+source_file="res://assets/chairs/misc assets/low_poly_cigarette_0.png"
+dest_files=["res://.godot/imported/low_poly_cigarette_0.png-945711ce54501398e98d0d933352d6f5.s3tc.ctex"]
 
 [params]
 

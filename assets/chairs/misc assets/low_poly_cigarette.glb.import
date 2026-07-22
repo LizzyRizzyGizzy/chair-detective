@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5uhc83jvrytk"
-path="res://.godot/imported/low_poly_cigarette.glb-de0edce760a40e4970cbb3e8330ac23b.scn"
+path="res://.godot/imported/low_poly_cigarette.glb-3476ede46c63091f37a4949172a7be7d.scn"
 
 [deps]
 
-source_file="res://chairs/misc assets/low_poly_cigarette.glb"
-dest_files=["res://.godot/imported/low_poly_cigarette.glb-de0edce760a40e4970cbb3e8330ac23b.scn"]
+source_file="res://assets/chairs/misc assets/low_poly_cigarette.glb"
+dest_files=["res://.godot/imported/low_poly_cigarette.glb-3476ede46c63091f37a4949172a7be7d.scn"]
 
 [params]
 

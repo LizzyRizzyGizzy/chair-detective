@@ -25,9 +25,7 @@
 		{
 			"uuid": "a036dfbe-8645-4914-9258-6c141293d371",
 			"title": "Todo",
-			"tasks": [
-				"30187d0e-e531-48d0-a2d8-96011c1914e3"
-			]
+			"tasks": []
 		},
 		{
 			"uuid": "707d8316-8441-48d4-b791-8d99938be8c3",
@@ -43,7 +41,9 @@
 			"uuid": "b7187443-f247-4664-b4fa-27b35070c87b",
 			"title": "Jacke",
 			"tasks": [
-				"d85a940c-da04-42d2-ac35-c0e4cb4337b4"
+				"d85a940c-da04-42d2-ac35-c0e4cb4337b4",
+				"8f5f6001-a311-47ec-a31d-dfb117e1381d",
+				"30187d0e-e531-48d0-a2d8-96011c1914e3"
 			]
 		},
 		{
@@ -100,6 +100,20 @@
 		{
 			"uuid": "30187d0e-e531-48d0-a2d8-96011c1914e3",
 			"title": "Subtitles",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		},
+		{
+			"uuid": "0c2a4f96-2f01-476d-ab89-73960f0dc506",
+			"title": "New task",
+			"description": "",
+			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
+			"steps": []
+		},
+		{
+			"uuid": "8f5f6001-a311-47ec-a31d-dfb117e1381d",
+			"title": "Expand Dialouge with Truth, Doubt, and Lie",
 			"description": "",
 			"category": "7b8ceb60-babe-4c01-b419-73d2ef89304e",
 			"steps": []

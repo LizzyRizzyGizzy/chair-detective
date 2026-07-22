@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ervk6w5gsc0"
-path="res://.godot/imported/police_hat.glb-47628b8cb04f3878b48b7f0ad4e62bb1.scn"
+path="res://.godot/imported/police_hat.glb-f0715a2175494f49ae5f7595662e9852.scn"
 
 [deps]
 
-source_file="res://chairs/misc assets/police_hat.glb"
-dest_files=["res://.godot/imported/police_hat.glb-47628b8cb04f3878b48b7f0ad4e62bb1.scn"]
+source_file="res://assets/chairs/misc assets/police_hat.glb"
+dest_files=["res://.godot/imported/police_hat.glb-f0715a2175494f49ae5f7595662e9852.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://726mfh306v3r"
-path="res://.godot/imported/Stool.glb-b84354ea4f094b3c3156bc25fd58a068.scn"
+path="res://.godot/imported/Stool.glb-b297cc0f423f57dd117504c68c4a156c.scn"
 
 [deps]
 
-source_file="res://chairs/Stool.glb"
-dest_files=["res://.godot/imported/Stool.glb-b84354ea4f094b3c3156bc25fd58a068.scn"]
+source_file="res://assets/chairs/Stool.glb"
+dest_files=["res://.godot/imported/Stool.glb-b297cc0f423f57dd117504c68c4a156c.scn"]
 
 [params]
 

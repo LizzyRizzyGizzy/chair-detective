@@ -8,6 +8,6 @@ var node_to_load
 func _ready() -> void:
 	#load order of GUI
 	node_to_load = ClueMenu.instantiate()
-	add_child(node_to_load)
+	add_child(node_to_load) 
 	
 	

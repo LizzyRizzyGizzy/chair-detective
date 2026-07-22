@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://osnyi30sje2t"
-path.s3tc="res://.godot/imported/police_hat_1.png-5d29d1a1dfe40932676a57eb32975f1a.s3tc.ctex"
+path.s3tc="res://.godot/imported/police_hat_1.png-426bb98a7833e7016ff35838ec6652a3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://chairs/misc assets/police_hat_1.png"
-dest_files=["res://.godot/imported/police_hat_1.png-5d29d1a1dfe40932676a57eb32975f1a.s3tc.ctex"]
+source_file="res://assets/chairs/misc assets/police_hat_1.png"
+dest_files=["res://.godot/imported/police_hat_1.png-426bb98a7833e7016ff35838ec6652a3.s3tc.ctex"]
 
 [params]
 

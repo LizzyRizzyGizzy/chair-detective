@@ -1,6 +1,12 @@
 [gd_scene format=3 uid="uid://dnxc0c3v01l6m"]
 
 [ext_resource type="PackedScene" uid="uid://dg02qyfpp1tvh" path="res://scenes/subway.tscn" id="1_uwrxv"]
+[ext_resource type="Script" uid="uid://chi2fn073j57y" path="res://scripts/clue_manager.gd" id="3_iywne"]
+[ext_resource type="PackedScene" uid="uid://mg2tai7ejnsh" path="res://assets/chairs/police_chair.tscn" id="4_p57ef"]
+[ext_resource type="PackedScene" uid="uid://cdywdamw1hsxa" path="res://scenes/detective_chair_phelps_characterbody.tscn" id="5_gee14"]
+[ext_resource type="Script" uid="uid://d08jo124x1nnf" path="res://scripts/gui_manager.gd" id="5_iywne"]
+[ext_resource type="Script" uid="uid://bgf862i5h7lbr" path="res://scripts/dialouge_manager.gd" id="5_u5sy4"]
+[ext_resource type="PackedScene" uid="uid://qe44nhgi4jgo" path="res://GUI/dialouges/DialougeSystem.tscn" id="6_u5sy4"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_uwrxv"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -12,6 +18,12 @@ sky_material = SubResource("ProceduralSkyMaterial_uwrxv")
 [sub_resource type="Environment" id="Environment_lnu2h"]
 background_mode = 2
 sky = SubResource("Sky_yqjtg")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u5sy4"]
+size = Vector3(1.263794, 3.0190735, 7.423401)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_a45ru"]
+size = Vector3(4.873169, 4.797058, 3.9733887)
 
 [node name="game" type="Node" unique_id=203788597]
 
@@ -25,3 +37,67 @@ shadow_enabled = true
 [node name="World" type="Node3D" parent="." unique_id=1370099164]
 
 [node name="Subway" parent="World" unique_id=959493535 instance=ExtResource("1_uwrxv")]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=701885782]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=208309263]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.27618408, -2.4855366, 18.44357)
+
+[node name="ClueManager" type="Node3D" parent="." unique_id=2118154128]
+script = ExtResource("3_iywne")
+
+[node name="Clue1" type="Area3D" parent="ClueManager" unique_id=2077388368]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ClueManager/Clue1" unique_id=1649569129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6723337, -2.4810276, 20.801678)
+shape = SubResource("BoxShape3D_u5sy4")
+debug_color = Color(8.374751e-06, 0.93056875, 0.20595014, 0.41960785)
+
+[node name="Clue1Camera" type="Camera3D" parent="ClueManager/Clue1" unique_id=949758914]
+transform = Transform3D(-0.00540504, -0.6463461, 0.7630252, -0.0045784055, 0.76304436, 0.6463299, -0.9999749, 0, -0.0070835203, -4.085559, -0.55699754, 19.870798)
+
+[node name="Clue1CameraTimer" type="Timer" parent="ClueManager/Clue1/Clue1Camera" unique_id=1770678857]
+one_shot = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="ClueManager/Clue1" unique_id=1635802545]
+
+[node name="PoliceChair" parent="." unique_id=1500542361 instance=ExtResource("4_p57ef")]
+transform = Transform3D(0.21356729, 0, -0.45209405, 0, 0.5, 0, 0.45209405, 0, 0.21356729, 1.5485879, -3.603566, 33.85705)
+
+[node name="PoliceChair2" parent="." unique_id=1520775447 instance=ExtResource("4_p57ef")]
+transform = Transform3D(-0.29464298, 0, -0.40396225, 0, 0.5, 0, 0.40396225, 0, -0.29464298, -1.1659981, -3.603566, 33.85705)
+
+[node name="DialougeManager" type="Node3D" parent="." unique_id=1572975575]
+script = ExtResource("5_u5sy4")
+
+[node name="DetectiveChairPhelps" parent="DialougeManager" unique_id=1468291638 instance=ExtResource("5_gee14")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, -3.0197148, 0)
+
+[node name="Police" type="Node" parent="DialougeManager" unique_id=414593951]
+
+[node name="PoliceTriggerArea" type="Area3D" parent="DialougeManager/Police" unique_id=1067886673]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DialougeManager/Police/PoliceTriggerArea" unique_id=1961876955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17022705, -1.6307485, 33.37213)
+shape = SubResource("BoxShape3D_a45ru")
+
+[node name="PoliceCamera3D" type="Camera3D" parent="DialougeManager/Police" unique_id=1685376125]
+transform = Transform3D(-0.71650714, -0.2791026, 0.6393116, 0.006474669, 0.9137706, 0.40617895, -0.69754976, 0.2951694, -0.6529161, 2.3502078, -1.3729872, 31.119442)
+
+[node name="DialougeSystem" parent="DialougeManager/Police" unique_id=1153170035 instance=ExtResource("6_u5sy4")]
+json_file = "res://GUI/dialouges/data/police.json"
+
+[node name="GUI Manager" type="Control" parent="." unique_id=584527578]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("5_iywne")
+
+[connection signal="body_entered" from="ClueManager/Clue1" to="ClueManager" method="_on_clue_1_body_entered"]
+[connection signal="body_exited" from="ClueManager/Clue1" to="ClueManager" method="_on_clue_1_body_exited"]
+[connection signal="timeout" from="ClueManager/Clue1/Clue1Camera/Clue1CameraTimer" to="ClueManager" method="_on_clue_1_camera_timer_timeout"]
+[connection signal="change_jumping" from="DialougeManager" to="DialougeManager/DetectiveChairPhelps" method="_on_dialouge_manager_change_jumping"]
+[connection signal="change_visibility" from="DialougeManager" to="DialougeManager/Police/DialougeSystem" method="_on_dialouge_manager_change_visibility"]
+[connection signal="body_entered" from="DialougeManager/Police/PoliceTriggerArea" to="DialougeManager" method="_on_police_trigger_area_body_entered"]
+[connection signal="body_exited" from="DialougeManager/Police/PoliceTriggerArea" to="DialougeManager" method="_on_police_trigger_area_body_exited"]

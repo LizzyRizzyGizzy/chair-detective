@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bthnv55lcdsyf"
-path="res://.godot/imported/PoliceChair.glb-71e1144a3cfcf60bda804b9ff4e911fa.scn"
+path="res://.godot/imported/PoliceChair.glb-973cf2cd52df57db5cbe1d4ebe957780.scn"
 
 [deps]
 
-source_file="res://chairs/PoliceChair.glb"
-dest_files=["res://.godot/imported/PoliceChair.glb-71e1144a3cfcf60bda804b9ff4e911fa.scn"]
+source_file="res://assets/chairs/PoliceChair.glb"
+dest_files=["res://.godot/imported/PoliceChair.glb-973cf2cd52df57db5cbe1d4ebe957780.scn"]
 
 [params]
 

@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://dg02qyfpp1tvh"]
+[gd_scene format=3 uid="uid://dmpgmjh3vpyue"]
 
-[ext_resource type="PackedScene" uid="uid://cpvbyh3lvw8p6" path="res://metro/scene.gltf" id="1_q1lkx"]
+[ext_resource type="PackedScene" path="res://metro/scene.gltf" id="1_d66cu"]
 
-[node name="Sketchfab_Scene" unique_id=959493535 instance=ExtResource("1_q1lkx")]
+[node name="Sketchfab_Scene" unique_id=959493535 instance=ExtResource("1_d66cu")]
 
 [node name="Poster_01_001_Posters_0" parent="Sketchfab_model/Metro_Esc_fbx/RootNode/Poster_01_001" parent_id_path=PackedInt32Array(2027131850) index="0" unique_id=860416844]
 visible = false
